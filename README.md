@@ -9,6 +9,8 @@
 ![iALM](./img/iALM.jpg)
 ---
 
+See [docs/overview.md](./docs/overview.md)
+
 ## Overview
 
 **stochastic-ialm** is an open-source implementation of the **Individual Asset Liability Management (iALM)** meta-model described in the paper *"Asset Liability Management for Individual Households"* (Dempster & Medova, 2010).
