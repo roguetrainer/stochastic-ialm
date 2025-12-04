@@ -1,0 +1,53 @@
+{
+  "household_name": "Pimlott Family",
+  "initial_wealth": 382000,
+  "incomes": [
+    {
+      "name": "Salary",
+      "annual_amount": 115000,
+      "start_year": 0,
+      "duration_years": 15,
+      "is_indexed": true
+    }
+  ],
+  "liabilities": [
+    {
+      "name": "Mortgage",
+      "monthly_amount": 2000,
+      "start_year": 0,
+      "duration_years": 5,
+      "is_indexed": false,
+      "spread_over_cpi": 0.0
+    },
+    {
+      "name": "School Fees",
+      "monthly_amount": 1500,
+      "start_year": 3,
+      "duration_years": 4,
+      "is_indexed": true,
+      "spread_over_cpi": 0.02
+    },
+    {
+      "name": "Living Expenses",
+      "monthly_amount": 3500,
+      "start_year": 0,
+      "duration_years": 20,
+      "is_indexed": true,
+      "spread_over_cpi": 0.0
+    }
+  ],
+  "goals": {
+    "pre_retirement": {
+      "minimum": 13800,
+      "acceptable": 84400,
+      "desirable": 89400,
+      "priority": 10
+    },
+    "post_retirement": {
+      "minimum": 13800,
+      "acceptable": 66800,
+      "desirable": 76900,
+      "priority": 10
+    }
+  }
+}
