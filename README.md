@@ -5,11 +5,17 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
+---
+![iALM](./img/iALM.jpg)
+---
+
 ## Overview
 
 **stochastic-ialm** is an open-source implementation of the **Individual Asset Liability Management (iALM)** meta-model described in the paper *"Asset Liability Management for Individual Households"* (Dempster & Medova, 2010).
 
 Unlike traditional financial planning tools that use static returns (e.g., "7% average growth"), this model uses **Dynamic Stochastic Programming (DSP)**. It simulates thousands of possible market and life scenarios to determine if a household's spending goals are sustainable.
+
+
 
 ### Core Philosophy
 1.  **Wealth ≠ Net Worth:** Wealth is defined as **sustainable spending** over a lifetime.
